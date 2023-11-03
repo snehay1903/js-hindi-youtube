@@ -1,0 +1,67 @@
+String methods
+slice() - extracts the part of string and return the extracted part in new string .(end is not included )
+
+substring(7 , 13)- its is similar to slice but value less than 0 is treated as 0
+If you omit the second parameter, substring() will slice out the rest of the string.
+
+substr() - it is similar to slice() . The difference is that the second parameter specifies the length of the extracted part.
+
+The replace() method replaces a specified value with another value in a string:
+By default, the replace() method replaces only the first match:
+If you want to replace all value the use /g flag
+
+split() A string can be converted to an array with the split() method:
+If the separator is omitted, the returned array will contain the whole string in index [0].
+If the separator is "", the returned array will be an array of single characters:
+
+replace() - replace the string with another string and return a  new string
+Syntax - text1 = “My name is Sneha”
+Text2 = text1.replace(“Sneha”, “Annsh”)
+
+replaceAll() - replaces all strings present in a sentence
+
+toUpperCase() -convert string to upper case
+
+toLowerCase() - converts string to lower case
+
+concat() - add 2 strings 
+Syntax - 
+let text1 = “Hello”
+Let text2 = text1.concat(“ ”, “world!”)
+ 
+
+trim() - removes whitespace from both the sides
+
+trimStart() - removes space from start
+
+trimEnd() - removes space from end
+
+padStart() - its pads a string from the start until it reached its given length
+Eg- let text = “5”
+Text = text.padStart(4,”0”) -                         op - 0005
+
+padEnd() - pads string from ends
+
+String search methods 
+
+indexOf() - give the index value of the given string in first occurrence
+
+lastIndexOf() - search the string from the last reference
+
+It the search string doesn’t match then both of the methods will return  -1
+
+indexOf() and lastIndexOf() - both methods takes a second parameters and begin from that value
+Eg - indexOf(“locate”, 15) 
+
+search() - the search method search the string from the first reference it and also it searches for regular expressions 
+
+The only diff between search() and indexOf() is that the search() will not have any second parameters and the indexOf() doesn’t find for expressions
+
+
+
+
+
+
+
+
+
